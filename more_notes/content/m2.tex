@@ -184,7 +184,12 @@ Let the following inverse PDE defined in $\mathbb{R}$ with a variable limit name
 \begin{equation}
 	\mathcal{F}(x, y)^{-1} = \frac{\partial^p x}{ \partial y^p} - \prod_{n=1}^{\mathcal{N}} \frac{\partial^n x}{ \partial y^n}. 
 \end{equation}
-Where $F$ does not converge when $x=0$ and $x=y$.
+Where $F$ does not converge when $x=0$ and $x=y$.\\
+An inverted definition of $F$ in $\mathbb{R}$ would be:
+\begin{align*}
+	\mathcal{I}(x, y) &= \frac{1}{\mathcal{F}(x, y)^{-1}},\\
+	\mathcal{I}(x, y) &= \frac{1}{\frac{\partial^p x}{ \partial y^p} - \prod_{n=1}^{\mathcal{N}} \frac{\partial^n x}{ \partial y^n}}, \, p \neq 0.
+\end{align*}
 \end{definition}
 
 \begin{definition}
