@@ -140,7 +140,7 @@ urlcolor=blue!60!black
 \newpage
 
 %% ============================================================
-\section{List of Theorems and Proofs:}
+\section{List of Lemmas and Proofs:}
 %% ============================================================
 
 %% ============================================================
@@ -149,11 +149,12 @@ urlcolor=blue!60!black
 
 \begin{lemma}
 \label{lem:1}
-There exist a following identity of factor $p$ of an index of a set $\mathcal{I}$ at $k$ in $\mathbb{R}$.
+There exist a following identity of factor $p$ of an index of a set $\mathcal{I}$ at $i, j, k$ in $\mathbb{N}^{+}$.
 \begin{equation}
-	||\mathcal{E}||^{p} = p \cdot \mathcal{I}_{k}.
+	||\mathcal{E}_{ijk}||^{p} = (p \cdot \mathcal{I}_{kij}).
 \end{equation}
-The following equation holds for $\forall \mathcal{E} \neq 0 \land \forall p \neq 0.$
+The following equation holds for $\forall \mathcal{E} \neq 0 \land \forall p \neq 0.$\\
+For $i, j, k \subset \mathbb{N}^{+}$.
 \end{lemma}
 \begin{remark}
 Per Lemma~\ref{lem:1} There exist a specific nonlinear graph of $\mathcal{E}$, if and only if $p < 0$.
@@ -161,22 +162,24 @@ Per Lemma~\ref{lem:1} There exist a specific nonlinear graph of $\mathcal{E}$, i
 
 \begin{definition}
 \label{def:1}
-Per \ref{lem:1}. Let the equation of $p, n \in \mathbb{R}$ be defined for a variable $\mathcal{E}$.
+Per \ref{lem:1}. Let the equation of $p, n \in \mathbb{N}^{+}$ be defined for a variable $\mathcal{E}$.
 \begin{equation}
-	||\mathcal{E}||^{p+n} = (p \cdot \mathcal{I}_{k})^{n}.
+	||\mathcal{E}_{ijk}||^{p+n} = (p \cdot \mathcal{I}_{kij})^{n}.
 \end{equation}
 \begin{remark}
 We could divide to $p$ on both sides of the equation per \ref{def:1}:
 \begin{align*}
-	||\mathcal{E}||^{p+n} = (p \cdot \mathcal{I}_{k})^{n},\\
-	\frac{||\mathcal{E}||^{p+n}}{p} = (\mathcal{I}_{k})^{n}, \, \forall \mathcal{E} \neq 0.
+	||\mathcal{E}_{ijk}||^{p+n} = (p \cdot \mathcal{I}_{kij})^{n},\\
+	\frac{||\mathcal{E}_{ijk}||^{p+n}}{p} = (\mathcal{I}_{k})^{n}, \, \forall \mathcal{E}_{ijk} \neq 0, \, \forall p \neq 0.
 \end{align*}
+For $i, j, k \subset \mathbb{N}^{+}$.
 \end{remark}
 \end{definition}
 
 %% ============================================================
 \section{Conclusion:}
 %% ============================================================
+Finishing of per previous definitions (\ref{def:1}, \ref{lem:1}), this note explores several identities and proofs regarding tensors.
 
 %% ============================================================
 \end{document}
