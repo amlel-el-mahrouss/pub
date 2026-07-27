@@ -200,8 +200,32 @@ Assuming we use the defintion per Remark~\ref{rem:7}, Redefinining Equation~\ref
 \end{equation}
 Assuming the variable of integration to be Remark~\ref{rem:7} between the open intveral $\mathbb{R}^{+} \land +\infty$:
 \begin{equation}
+  \label{eq:integral:1}
   \int_{\mathbb{R}^{+}}^{+\infty} \rho \frac{\mathbf{D}\textbf{u}}{\mathbf{D}t} \, d\tau = - \int_{\mathbb{R}^{+}}^{+\infty} \nabla p + \nabla \cdot \tau + \rho \, \textbf{a} \, d\tau.
 \end{equation}
+\begin{example}
+  Let the Equation~\ref{eq:integral:1} in $\mathbb{R}$, within an interval of $\mathbb{R}^{+}$ to $+\infty$:
+  \begin{equation}
+      - \int_{\mathbb{R}^{+}}^{+\infty} \nabla p + \nabla \cdot \tau + \rho \, \textbf{a} \, d\tau.
+  \end{equation}
+  Applying the decomposition theorem for the Equation~\ref{eq:integral:1} for the two intervals $[\mathbb{R}^{+}, x]$ and $[x, +\infty]$:
+  \begin{equation}
+      - \int_{\mathbb{R}^{+}}^{x} \nabla p + \nabla \cdot \tau + \rho \, \textbf{a} \, d\tau \pm \int_{x}^{+\infty} \nabla p + \nabla \cdot \tau + \rho \, \textbf{a} \, d\tau.
+  \end{equation}
+  The following construction applied from the interval of values of $x$ between $\mathbb{R}^{+}_0$ to $\mathbb{R}^{+}_{p}$, solving for $x=\mathcal{R}$:
+  \begin{equation}
+    \mathbb{R}^{+}_0 < \mathcal{R} < \mathbb{R}^{+}_{p}.
+  \end{equation}
+  Reorganizing the inequality gives the following inequality:
+  \begin{equation}
+    \mathbb{R}^{+}_0 - \mathcal{R} < \mathbb{R}^{+}_{p}.
+  \end{equation}
+  Imposing a limit of $\mathbb{R}^{+}_0 - \mathcal{R}$ from a value $n \to 0$ would be as the index of $\mathbb{R}^{+}_0$ is zero:
+  \begin{equation}
+    \lim_{n \to 0} \mathbb{R}^{+}_n - \mathcal{R} < \mathbb{R}^{+}_{p}, \, p \neq 0, \, p > n.
+  \end{equation}
+  The limit has been invoked per \ref{eq:integral:1} to establish non-degeneracy cases for \ref{eq:cauchy} and \ref{eq:integral:1}. Moreover tigheting the interval of values would turn out to server us well in the next sections about applied examples of the integral.
+\end{example}
 
 %% ============================================================
 \section{Conclusion:}
