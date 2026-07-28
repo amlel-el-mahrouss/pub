@@ -5,12 +5,12 @@
 echo "==> PUB: DOWNLOADING REPOSITORY..."
 
 ORG=publications-org
-PROFILE=pub-release
+PROFILE=release
 
 SRC=pub
 VCS=git
 FLAGS=clone --recurse-submodules -j8
-DIST=src-${ORG}-${PROFILE}
+DIST=pub-${ORG}-${PROFILE}
 
 mkdir ${DIST}
 
