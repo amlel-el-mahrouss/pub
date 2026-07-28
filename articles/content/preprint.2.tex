@@ -158,32 +158,26 @@ There exist by setting the cauchy stress tensor $\sigma$ to be the sum of a visc
 \label{rem:1}
   The material derivative is defined as: $\frac{\mathbf{D}\textbf{u}}{\mathbf{D}t}$.
 \end{remark}
-
 \begin{remark}
 \label{rem:2}
   The density variable is defined as: $\rho$.
 \end{remark}
-
 \begin{remark}
 \label{rem:3}
   The flow density variable is defined as: $\textbf{u}$.
 \end{remark}
-
 \begin{remark}
 \label{rem:4}
   The divergence vector operator, defined as: $\nabla \cdot$.
 \end{remark}
-
 \begin{remark}
 \label{rem:5}
   The pressure variable, defined as: $p$.
 \end{remark}
-
 \begin{remark}
 \label{rem:6}
   The time variable, defined as: $t$.
 \end{remark}
-
 \begin{remark}
 \label{rem:7}
   The deviatoric stress tensor operator, defined as: $\tau$.
@@ -191,9 +185,7 @@ There exist by setting the cauchy stress tensor $\sigma$ to be the sum of a visc
 \begin{remark}
   The body accelerations defined as $\mathbf{a}$ acting on the continuum.
 \end{remark}
-
-\subsection{Several Applications from Equation~\ref{eq:cauchy}.}
-
+\begin{definition}
 Assuming we use the defintion per Remark~\ref{rem:7}, redefining Equation~\ref{eq:cauchy}, that yields:
 \begin{equation}
   \rho \frac{\mathbf{D}\textbf{u}}{\mathbf{D}t} = - \nabla p + \nabla \cdot \tau + \rho \, \textbf{a}.
@@ -203,15 +195,25 @@ Assuming the variable of integration to be Remark~\ref{rem:7} between the open i
   \label{eq:integral:1}
   \int_{\mathbb{R}^{+}}^{+\infty} \rho \frac{\mathbf{D}\textbf{u}}{\mathbf{D}t} \, dt = - \int_{\mathbb{R}^{+}}^{+\infty} \nabla p + \nabla \cdot \tau + \rho \, \textbf{a} \, dt.
 \end{equation}
-\begin{example}
+\end{definition}
+\begin{theorem}
+  \label{ex:1}
   Let the Equation~\ref{eq:integral:1} in $\mathbb{R}$, within an interval of $\mathbb{R}^{+} \land +\infty$:
   \begin{equation}
       - \int_{\mathbb{R}^{+}}^{+\infty} \nabla p + \nabla \cdot \tau + \rho \, \textbf{a} \, dt.
   \end{equation}
-  Applying the decomposition theorem for the Equation~\ref{eq:integral:1} for the two intervals $[\mathbb{R}^{+}, x]$ and $[x, +\infty)$:
+  Applying the decomposition theorem for the Equation~\ref{eq:integral:1} for the two intervals $[\mathbb{R}^{+}, x]$ and $[x, +\infty]$:
   \begin{equation}
       - \int_{\mathbb{R}^{+}}^{x} \nabla p + \nabla \cdot \tau + \rho \, \textbf{a} \, dt \pm \int_{x}^{+\infty} \nabla p + \nabla \cdot \tau + \rho \, \textbf{a} \, dt.
   \end{equation}
+\end{theorem}
+\begin{definition}
+  Let $\mathbb{R}^{+}_0$ be the first element of the set $\mathbb{R}$.
+\end{definition}
+\begin{definition}
+  Let $\mathbb{R}^{+}_p$ be the element of index $p \in \mathbb{N}^{+}$ in the set $\mathbb{R}$.
+\end{definition}
+\begin{definition}
   The following construction applied from the interval of values of $x$ between $\mathbb{R}^{+}_0$ to $\mathbb{R}^{+}_{p}$, solving for $x=\mathcal{R}$:
   \begin{equation}
     \mathbb{R}^{+}_0 < \mathcal{R} < \mathbb{R}^{+}_{p}.
@@ -225,7 +227,7 @@ Assuming the variable of integration to be Remark~\ref{rem:7} between the open i
     \lim_{n \to 0} \mathbb{R}^{+}_n - \mathcal{R} < \mathbb{R}^{+}_{p}, \, p \neq 0, \, p > n.
   \end{equation}
   The limit has been invoked per \ref{eq:integral:1} to establish non-degeneracy cases for \ref{eq:cauchy} and \ref{eq:integral:1}. Moreover tigheting the interval of values would turn out to serve us well in the next sections about applied examples of the integral.
-\end{example}
+\end{definition}
 
 %% ============================================================
 \section{Conclusion:}
