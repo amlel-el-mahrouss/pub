@@ -10,6 +10,7 @@ AMLAL: IMPORTANT 4: Flagging the last part being missing yet.
 Preprint Two:
 
 AMLAL: This one should explore several differential equations and geometry and potential applications in ML. More on it later.
+AMLAL: Since decomposition theorem is undefined for now, define it later.
 
 Notes:
 
