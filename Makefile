@@ -10,7 +10,7 @@ all:
 
 .PHONY: ack
 ack:
-	@latex p.tex
+	@latex intro/content/p.tex
 
 .PHONY: on_al
 on_al:
