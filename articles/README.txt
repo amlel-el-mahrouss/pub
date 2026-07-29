@@ -11,7 +11,8 @@ Preprint Two:
 
 AMLAL: This one should explore several differential equations and geometry and potential applications in ML. More on it later.
 AMLAL: Since decomposition theorem is undefined for now, define it later.
+AMLAL: +infty] -> \infty) fix.
 
-Notes:
+Notes for Preprints:
 
 AMLAL: Where should I apply them now? I have yet to think about this...
