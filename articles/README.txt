@@ -14,6 +14,10 @@ AMLAL: Since decomposition theorem is undefined for now, define it later.
 AMLAL: +infty] -> \infty) fix.
 AMLAL: ; -> , fix.
 
+Preprint Three:
+
+AMLAL: What can we explore now?
+
 Notes for Preprints:
 
 AMLAL: Where should I apply them now? I have yet to think about this...
