@@ -141,8 +141,9 @@
 \section{Abstract:}
 %% ============================================================
 
-\lettrine[lines=1, lhang=0.1, loversize=0.2]{I}N this paper we will cover the convective form of the Cauchy Momentum Equation as stated per Navier-Stokes. And proceed to conduct several observations on the said equation.\\
-Results and more remarks will be given throughout the paper.
+\lettrine[lines=1, lhang=0.1, loversize=0.2]{T}HE research paper will cover the convective form of the Cauchy Momentum Equation as stated per Navier-Stokes and its applications in Machine Learning. And to conduct several observations on the said equation.\\
+Results and more remarks will be given throughout the paper. Prior knowledge about the Navier-Stokes equations and their derivations is assumed.\\ \\
+\textbf{Keywords:} Cauchy Momentum Equation, Navier-Stokes, Machine Learning, Convective Form, Fluid Dynamics, Mathematical Analysis.
 
 %% ============================================================
 \section{Introduction and Definitions before Proofs:}
@@ -250,8 +251,16 @@ Let us define the integral of $[\mathbb{R}^{+}, \infty)$ as:
 For a non-trivial non-linear plane in $\mathbb{R}^{+}$.
 \end{definition}
 \begin{remark}
-The plane per \ref{def:plane-1} is assumed non-degenerate and of fourth dimensional space.
+\label{rem:plane-1}
+The plane per \ref{def:plane-1} is assumed to be non-degenerate and of fourth dimensional space.
 \end{remark}
+
+\begin{corollary}
+Per \ref{def:plane-1} and \ref{rem:plane-1}, there exist a set of degenerate planes in $\mathbb{R}^{+}$, that are of fourth dimensional space, and are non-trivial and non-linear such that:
+\begin{equation}
+  \operatorname{plane}_{n}(x, y, z, t) \notin \mathbb{R}^{+}\, , \forall n \in \mathbb{N}^{+}.
+\end{equation}
+\end{corollary}
 
 %% ============================================================
 \section{Proofs and Applications in a 4D-plane:}
@@ -264,7 +273,7 @@ The plane per \ref{def:plane-1} is assumed non-degenerate and of fourth dimensio
 %% ============================================================
 \section{Conclusion:}
 %% ============================================================
-Per the stated abstract, the paper has fulfilled its purpose, additional graphs and results will be published after writing.
+Per the stated abstract, the research paper has fulfilled its purpose, additional graphs and results will be published after writing.
 
 \nocite{*}
 \bibliographystyle{acm}
