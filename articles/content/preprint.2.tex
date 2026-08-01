@@ -148,14 +148,20 @@ Results and more remarks will be given throughout the paper.
 \section{Introduction and Definitions before Proofs:}
 %% ============================================================
 \lettrine[lines=1, lhang=0.1, loversize=0.2]{W}E shall first introduce the definitions and remarks in a mathematically sound manner before proceeding towards proofs and graphs.\\Moreover the definitions stated in this preprint will be used later in the paper to provide examples on use cases for this paper. Now going through the definitions:
-\subsection{Introduction and Notions:}
+\subsection{Introduction of the Cauchy Momentum Equation:}
 \begin{definition}
 There exist by setting the cauchy stress tensor $\sigma$ to be the sum of a viscosity term $\tau$ and a pressure term $-p\, \mathbf{I}$, defined as the volumetric stress, the following equation:
 \begin{equation}
 \label{eq:cauchy}
   \rho \frac{\mathbf{D}\textbf{u}}{\mathbf{D}t} = - \nabla p + \nabla \cdot \tau + \rho \, \textbf{a}.
 \end{equation}
+Is defined in a Lagrangian notation.
 \end{definition}
+
+\subsection{Remarks and Definitions:}
+
+\lettrine[lines=1, lhang=0.1, loversize=0.2]{T}HE following remarks are assumed to be true and will be used in the next sections of this paper. The remarks are as follows:
+
 \begin{remark}
 \label{rem:1}
   Let the material derivative be defined as: $\frac{\mathbf{D}\textbf{u}}{\mathbf{D}t}$.
@@ -264,7 +270,7 @@ Per the stated abstract, the paper has fulfilled its purpose, additional graphs 
 \nocite{*}
 \bibliographystyle{acm}
 %% TODO: More references.
-\bibliography{pinter2010book, simons1968, weil1967basic, temam2024navier}
+\bibliography{pinter2010book, simons1968, weil1967basic, temam2024navier, munkres}
 
 %% ============================================================
 \end{document}

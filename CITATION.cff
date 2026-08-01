@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-title: Amlal El Mahrouss's Papers.
-message: Amlal El Mahrouss's papers et al. From amlal.nekernel.org.
+title: Amlal El Mahrouss's Papers and Preprints
+message: Amlal El Mahrouss's papers et al from amlal.nekernel.org.
 type: software
 authors:
   - given-names: Amlal
@@ -18,4 +18,8 @@ keywords:
   - cs
   - physics
   - mathematics
+  - abstract-algebra
+  - differential-geometry
+  - topology
+  - differential-equations
 license: CC-BY-SA-4.0

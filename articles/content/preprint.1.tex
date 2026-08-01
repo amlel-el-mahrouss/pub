@@ -141,15 +141,33 @@
 \section{Abstract:}
 %% ============================================================
 
-\lettrine[lines=1, lhang=0.1, loversize=0.2]{I}N this paper, we will cover and explore several products on Riemannian manifolds and structures. Explorations of several theorems and proofs will be presented as well. Our objective is to come to several conclusions regarding tensors products on Riemannian Manifolds.
+\lettrine[lines=1, lhang=0.1, loversize=0.2]{T}HE research paper covers and explores several mathematical concepts of Riemannian Manifolds and Structures in Abstract Algebra and Topology. We prove that:\\
+\begin{equation}
+  \int_{\mathcal{P}_{S,F}} \mathcal{F}_t(i,j,k)\,d\mathrm{vol}
+  = \int_{S}^{F} \left(\int_{\mathcal{P}_t} \mathcal{T}_i(t) \cdot \mathcal{T}_{ij}(t) \cdot \mathcal{T}_{ijk}(t)\,d\mathrm{vol}_t\right) dt
+  = \mathcal{T}_i \cdot \mathcal{T}_{ij} \cdot \mathcal{T}_{ijk}
+  = \langle \mathcal{P} \rangle.
+\end{equation}
+And consequently additional remarks and observations regarding tensor products and their representations over Riemannian Manifolds are discussed using the Fubini's Theorem and a proof by construction.
 
 %% ============================================================
 \section{Introduction and Definitions:}
 %% ============================================================
 
-\lettrine[lines=1, lhang=0.1, loversize=0.2]{L}ET us define two concepts before attacking the next section of the preprint:
+\lettrine[lines=1, lhang=0.1, loversize=0.2]{T}HE following definition of $\mathcal{P}$ is a p-dimensional Riemannian manifold product tensor with boundary. One may define such as:
 
-\subsection{Definitions:}
+\subsection{Tensor and Set Definitions:}
+
+\begin{equation}
+  \mathcal{P} \subset \mathcal{T}_i \cdot \mathcal{T}_{ij} \cdot \mathcal{T}_{ijk}.
+\end{equation}
+For the following tensor $\mathcal{P}$ to be defined in:
+\begin{equation}
+  \mathcal{P} \in \mathbb{T}^{+}.
+\end{equation}
+Where $\mathbb{T}^{+}$ is the set of all non-zero three-dimensional tensors.
+
+\subsection{Mathematical Definitions of a Riemannian Manifold Product Tensor:}
 
 \begin{definition}
 \label{def:two-one}
@@ -209,7 +227,7 @@
 \end{corollary}
 
 
-\subsection{Proof by construction regarding corollaries and definitions:}
+\subsection{Proof by construction regarding Corollaries and Definitions:}
 
 \begin{proof}
 \label{proof:construc}
@@ -234,7 +252,7 @@ One may expand the observations and experimentation in Analysis and Complex Anal
 
 \nocite{*}
 \bibliographystyle{acm}
-\bibliography{pinter2010book, simons1968}
+\bibliography{pinter2010book, simons1968, weil1967basic, munkres}
 
 %% ============================================================
 \end{document}
