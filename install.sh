@@ -7,11 +7,13 @@ echo "==> PUB: DOWNLOADING REPOSITORY..."
 ORG=publications-org
 PROFILE=release
 
+MKDIR=mkdir
+
 SRC=pub
 VCS=git
 FLAGS=clone --recurse-submodules -j8
 DIST=pub-${ORG}-${PROFILE}
 
-mkdir ${DIST}
+${MKDIR} ${DIST}
 
 ${GIT} ${FLAGS} https://github.com/publications-org/${SRC}.git ${DIST}/${SRC}
